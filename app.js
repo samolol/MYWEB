@@ -1,4 +1,4 @@
-const DEMO_SCREENSHOT_1_URL = "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=1200&q=80";
+const DEMO_SCREENSHOT_1_URL = "Snímek obrazovky 2026-01-31 120730.png";
 const DEMO_SCREENSHOT_2_URL = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80";
 const DEMO_SCREENSHOT_3_URL = "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80";
 const DEMO_VIDEO_URL = "https://storage.googleapis.com/coverr-main/mp4/Footboys.mp4";
