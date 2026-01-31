@@ -4,9 +4,9 @@ const DEMO_SCREENSHOT_3_URL = "https://images.unsplash.com/photo-1500530855697-b
 const DEMO_VIDEO_URL = "https://storage.googleapis.com/coverr-main/mp4/Footboys.mp4";
 const DEMO_VIDEO_POSTER_URL = "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80";
 
-const FIVERR_BASIC_URL = "";
-const FIVERR_STANDARD_URL = "";
-const FIVERR_PREMIUM_URL = "";
+const FIVERR_BASIC_URL = "https://www.fiverr.com/samolol/design-and-build-a-modern-custom-website-for-your-business";
+const FIVERR_STANDARD_URL = "https://www.fiverr.com/samolol/design-and-build-a-modern-custom-website-for-your-business";
+const FIVERR_PREMIUM_URL = "https://www.fiverr.com/samolol/design-and-build-a-modern-custom-website-for-your-business";
 
 const state = {
   currentStep: 1,
