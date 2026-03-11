@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webnamiru.online | Web na míru</title>
+  <meta name="description" content="Web na míru pro malé firmy a služby: moderní, důvěryhodný a zaměřený na získávání poptávek.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="styles.css" as="style">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Hlavní navigace">
+      <a class="brand" href="#top" aria-label="Web na míru">
+        <span class="brand-dot" aria-hidden="true"></span>
+        Web na míru
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Otevřít menu</span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="nav-links" id="nav-menu">
+        <a href="#vyhody">Výhody</a>
+        <a href="#pro-koho">Pro koho</a>
+        <a href="#proces">Proces</a>
+        <a href="#ukazky">Ukázky</a>
+        <a href="#kontakt">Kontakt</a>
+        <button class="btn ghost" data-scroll="kontakt">Nezávazně poptat web</button>
+        <button class="theme-toggle" type="button" aria-pressed="true">
+          <span class="sun" aria-hidden="true">☀️</span>
+          <span class="moon" aria-hidden="true">🌙</span>
+          <span class="sr-only">Přepnout režim</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Freelance web design</p>
+          <h1>Web, který přivádí poptávky. Ne jen hezká vizitka.</h1>
+          <p class="lead">Tvořím moderní weby na míru pro malé firmy a služby, které chtějí být dohledatelné, působit důvěryhodně a získávat nové poptávky.</p>
+          <p class="identity">Vše řešíte přímo se mnou. Bez agenturních koleček a zbytečných složitostí.</p>
+          <div class="hero-actions">
+            <button class="btn primary" data-scroll="kontakt">Nezávazně poptat web</button>
+            <button class="btn secondary" data-scroll="proces">Jak probíhá spolupráce</button>
+          </div>
+          <div class="trust-chips" aria-label="Důvody proč se ozvat">
+            <span class="chip">Jednoduchá domluva</span>
+            <span class="chip">Mobile-first</span>
+            <span class="chip">Zaměřeno na poptávky</span>
+          </div>
+        </div>
+        <div class="hero-showcase" aria-label="Ukázka webového preview videa">
+          <div class="browser-frame hero-video-frame" aria-label="Video ukázka projektu">
+            <div class="browser-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="hero-video-wrap">
+              <video
+                id="hero-video"
+                class="hero-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="assets/screen1.png"
+              >
+                <source src="assets/video1.mp4" type="video/mp4">
+                Váš prohlížeč nepodporuje video.
+              </video>
+              <img id="hero-video-fallback" class="hero-video-fallback" src="assets/screen1.png" alt="Ukázka projektu" loading="lazy" hidden>
+              <div class="carousel-glow" aria-hidden="true"></div>
+            </div>
+          </div>
+          <p class="note">Ukázky vyměním za váš obsah během 1–2 dnů.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section value" id="vyhody">
+      <div class="container">
+        <div class="section-head">
+          <h2>3 hlavní výhody</h2>
+          <p>Bez omáčky. To podstatné pro malý byznys.</p>
+        </div>
+        <div class="grid value-grid">
+          <article class="card value-card" data-tilt>
+            <h3>Moderní a přehledný web</h3>
+            <p>Návštěvník se rychle zorientuje a snadno vás kontaktuje.</p>
+          </article>
+          <article class="card value-card" data-tilt>
+            <h3>Skvěle funguje na mobilu</h3>
+            <p>Web je čitelný a rychlý i pro lidi, kteří přijdou z telefonu.</p>
+          </article>
+          <article class="card value-card" data-tilt>
+            <h3>Rychlá a osobní domluva</h3>
+            <p>Komunikujete přímo se mnou a vše řešíme srozumitelně.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section qualifier" id="pro-koho">
+      <div class="container">
+        <div class="section-head">
+          <h2>Pro koho je web vhodný</h2>
+          <p>Nejčastěji pomáhám těmto typům podnikání:</p>
+        </div>
+        <div class="grid qualifier-grid">
+          <article class="card qualifier-card">
+            <h3>Malé firmy</h3>
+            <p>Potřebujete důvěryhodnou online prezentaci, která přináší nové zákazníky.</p>
+          </article>
+          <article class="card qualifier-card">
+            <h3>Řemeslníci a služby</h3>
+            <p>Chcete, aby vás lidé snadno našli a mohli vám hned napsat nebo zavolat.</p>
+          </article>
+          <article class="card qualifier-card">
+            <h3>Lokální podnikání</h3>
+            <p>Podnikáte ve svém městě a potřebujete web, který funguje i bez složitostí.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="proces">
+      <div class="container">
+        <div class="section-head">
+          <h2>Jak spolupráce probíhá</h2>
+          <p>Jasný postup ve 4 krocích, ať víte, co čekat.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-step" data-reveal>
+            <span>01</span>
+            <h3>Krátká domluva</h3>
+            <p>Projdeme cíle webu a co od něj očekáváte.</p>
+          </article>
+          <article class="timeline-step" data-reveal>
+            <span>02</span>
+            <h3>Návrh řešení</h3>
+            <p>Navrhnu strukturu a směr, který bude dávat smysl vašim zákazníkům.</p>
+          </article>
+          <article class="timeline-step" data-reveal>
+            <span>03</span>
+            <h3>Tvorba webu</h3>
+            <p>Web postavím, průběžně ladíme obsah i detaily.</p>
+          </article>
+          <article class="timeline-step" data-reveal>
+            <span>04</span>
+            <h3>Předání a spuštění</h3>
+            <p>Web spustíme a dostanete vše potřebné pro běžné používání.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="ukazky">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ukázky</h2>
+          <p>Ukázkové projekty pro představu stylu a zpracování.</p>
+        </div>
+        <div class="grid portfolio-grid">
+          <article class="card portfolio-card" data-tilt>
+            <div class="card-media">
+              <img data-screenshot="2" src="assets/screen2.png" alt="Ukázka webu – Luxury Restaurant Landing" loading="lazy">
+              <div class="overlay"><span>Prohlédnout detail</span></div>
+            </div>
+            <div class="card-body">
+              <h3>Luxury Restaurant Landing</h3>
+              <p class="portfolio-label">Ideální pro restaurace</p>
+              <div class="card-actions">
+                <button class="btn ghost" data-modal="project-2">Detail</button>
+                <a class="btn link" href="https://samolol.github.io/DEMO2/" target="_blank" rel="noopener noreferrer">Otevřít demo →</a>
+                <button class="btn ghost" data-portfolio-cta data-prefill="Restaurace">Chci podobný web</button>
+              </div>
+            </div>
+          </article>
+          <article class="card portfolio-card" data-tilt>
+            <div class="card-media">
+              <img data-screenshot="3" src="assets/screen3.png" alt="Ukázka webu – Industrial Auto Service" loading="lazy">
+              <div class="overlay"><span>Prohlédnout detail</span></div>
+            </div>
+            <div class="card-body">
+              <h3>Industrial Auto Service</h3>
+              <p class="portfolio-label">Ideální pro služby</p>
+              <div class="card-actions">
+                <button class="btn ghost" data-modal="project-3">Detail</button>
+                <a class="btn link" href="https://samolol.github.io/DEMO3/" target="_blank" rel="noopener noreferrer">Otevřít demo →</a>
+                <button class="btn ghost" data-portfolio-cta data-prefill="Služby">Chci podobný web</button>
+              </div>
+            </div>
+          </article>
+          <article class="card portfolio-card" data-tilt>
+            <div class="card-media">
+              <img data-screenshot="1" src="assets/screen1.png" alt="Ukázka webu – Premium SaaS/Studio Landing" loading="lazy">
+              <div class="overlay"><span>Prohlédnout detail</span></div>
+            </div>
+            <div class="card-body">
+              <h3>Premium SaaS/Studio Landing</h3>
+              <p class="portfolio-label">Ideální pro startupy</p>
+              <div class="card-actions">
+                <button class="btn ghost" data-modal="project-1">Detail</button>
+                <a class="btn link" href="https://samolol.github.io/DEMO1/" target="_blank" rel="noopener noreferrer">Otevřít demo →</a>
+                <button class="btn ghost" data-portfolio-cta data-prefill="Landing">Chci podobný web</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontakt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Nezávazná poptávka</h2>
+          <p>Stačí napsat pár vět o tom, co potřebujete. Ozvu se a navrhnu další postup.</p>
+          <p class="form-reassurance">Vyplnění zabere cca 1 minutu. Odpovím do 24 hodin.</p>
+        </div>
+        <div class="form-card">
+          <form id="lead-form" novalidate>
+            <input type="text" name="_gotcha" id="gotcha" autocomplete="off" tabindex="-1" aria-hidden="true" class="gotcha">
+            <input type="hidden" name="predvyber" id="prefill-input" value="">
+
+            <label class="field">
+              <span>Jméno</span>
+              <input type="text" name="jmeno" required>
+            </label>
+            <label class="field">
+              <span>Firma</span>
+              <input type="text" name="firma">
+            </label>
+            <label class="field">
+              <span>E-mail</span>
+              <input type="email" name="email" id="email-field" placeholder="napr. jan@firma.cz">
+            </label>
+            <label class="field">
+              <span>Telefon</span>
+              <input type="tel" name="telefon" id="phone-field" placeholder="napr. 777 123 456">
+            </label>
+            <label class="field">
+              <span>Krátká zpráva</span>
+              <textarea name="zprava" rows="4" required placeholder="Co potřebujete, jaký máte obor a přibližný termín?"></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary" id="submit-form">Odeslat poptávku</button>
+            </div>
+            <p class="form-note">Stačí vyplnit e-mail nebo telefon (klidně oboje).</p>
+          </form>
+
+          <div class="form-after">
+            <h4>Co bude dál?</h4>
+            <p>Do 24 hodin se ozvu s návrhem dalšího postupu. Bez závazků.</p>
+          </div>
+
+          <div class="success" id="success" hidden>
+            <h3>Díky, zpráva je odeslaná.</h3>
+            <p id="success-personal"></p>
+            <button class="btn ghost" id="reset-form">Poslat další poptávku</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Web na míru</h3>
+        <p>Vytvořeno s důrazem na konverze a poptávky.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#vyhody">Výhody</a></li>
+          <li><a href="#pro-koho">Pro koho</a></li>
+          <li><a href="#proces">Proces</a></li>
+          <li><a href="#ukazky">Ukázky</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="mailto:hello@webnamiru.online">hello@webnamiru.online</a></li>
+          <li><span class="muted">Fiverr (odkaz doplním)</span></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-content" role="document" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-close aria-label="Zavřít">×</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-body"></p>
+      <ul id="modal-list"></ul>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
